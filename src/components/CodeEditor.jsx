@@ -106,7 +106,7 @@ const CodeEditor = () => {
 
   return (
     <div className="grid grid-cols-12 space-x-4 mt-5">
-      <div className="col-span-1">
+      <div className="col-span-2">
         <div className="border-b-2 m-5 mt-2 text-center">
           <img
             className="border-2 rounded-xl flex justify-center mx-1 animate-bounce"
