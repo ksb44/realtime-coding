@@ -8,5 +8,5 @@ export const initSocket = async () =>{
         timeout:10000,
         reconnectionAttempt:'Infinity'
     }
-    return io("http://localhost:5000",options)
+    return io("https://backend-realtime-w5sb.onrender.com",options)
 }
